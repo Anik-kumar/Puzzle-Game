@@ -675,5 +675,11 @@ namespace PuzzleGame
             prevBtn = null;
             scoreLabel3.Text = score.ToString();
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //exit btn
+            Application.Exit();
+        }
     }
 }
